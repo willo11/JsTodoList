@@ -9,4 +9,7 @@ document.addEventListener('DOMContentLoaded',function(){
 
     model.setView(view);
     view.setModel(model);
+    
+    view.render();
+
 })
